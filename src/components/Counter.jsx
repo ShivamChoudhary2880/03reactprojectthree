@@ -14,6 +14,7 @@ const Counter = () => {
             <p id='para'>You have clicked { count} Times</p>
             {/* <button onClick={()=> {setCount(count+1)}} id='btn'>Click me</button> */}
             <button onClick={handleSubmit} id='btn'>Click me</button>
+                        <button onClick={handleSubmit} id='btn'>Click me</button>
         </div>
     )
 }
